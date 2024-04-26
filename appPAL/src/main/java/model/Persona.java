@@ -9,8 +9,43 @@ package model;
  * @author Arust
  */
 public class Persona {
-    private int id_persona;
-    private int per_nombre;
-    private int per_apellido;
+    private int idpersona;
+    private String nombre;
+    private String apellido;
+    private String direccion;
+
+    public int getIdpersona() {
+        return idpersona;
+    }
+
+    public void setIdpersona(int idpersona) {
+        this.idpersona = idpersona;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+    
+    
     
 }
